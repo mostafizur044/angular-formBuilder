@@ -1,0 +1,59 @@
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">All Form List</h2>
+
+                <div class="table-responsive m-t-40" style="margin-top: 0px;">
+                    <table id="example23" class="display nowrap table color-table dark-table table-hover table-striped table-bordered" cellspacing="0" width="100%">
+                        <thead>
+                            <tr>
+                                <th>
+                                    SL No
+                                </th>                   
+                                <th>
+                                    <span class="name-table-head">Form Name</span>
+                                    <span class="up-down-angle">
+                                        <div (click)="sorting.sortAscending(formDataList,'name')"><i class="fa fa-angle-up"></i></div>
+                                        <div (click)="sorting.sortDescending(formDataList,'name')"><i class="fa fa-angle-down"></i></div>
+                                    </span>
+                                </th>
+                                <th>                    
+                                    Action
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let form of formDataList; let i = 'index'">
+                                <td>{{i+1}}</td>
+                                <td>{{form.name}}</td>
+                                <td>
+                                    <a class="btn btn-info btn-sm" (click)="edit(form.formData)" style="color: #fff;">Edit</a>
+                                    <a class="btn btn-success btn-sm" (click)="previewData(form.formData)" style="color: #fff;">Preview</a>
+                                    <a class="btn btn-danger btn-sm" (click)="0" style="color: #fff;">Delete</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>   
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div id="previewForm" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                </div>
+                <div>
+                    <div class="f-render" style="padding: 30px;"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
