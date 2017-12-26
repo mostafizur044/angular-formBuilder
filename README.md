@@ -11,9 +11,13 @@ Run `npm install`
 Run `ng serve / npm start`
 
 ## Screenshots
-![angularform](https://user-images.githubusercontent.com/29102674/34361623-f2a3a910-ea95-11e7-97f7-69d314d0804c.png)
-![angularformed](https://user-images.githubusercontent.com/29102674/34361624-f2e21268-ea95-11e7-991c-6c5c190e3110.png)
-![angularformlist](https://user-images.githubusercontent.com/29102674/34361625-f31fd756-ea95-11e7-9d55-822484a70fe0.png)
+#### Home Page
+![angularform](https://user-images.githubusercontent.com/29102674/34361623-f2a3a910-ea95-11e7-97f7-69d314d0804c.png)  
+#### Edit Page
+![angularformed](https://user-images.githubusercontent.com/29102674/34361624-f2e21268-ea95-11e7-991c-6c5c190e3110.png)  
+#### List Page
+![angularformlist](https://user-images.githubusercontent.com/29102674/34361625-f31fd756-ea95-11e7-9d55-822484a70fe0.png)  
+#### Form Render Preview
 ![angularformpre](https://user-images.githubusercontent.com/29102674/34361626-f36476ea-ea95-11e7-98f7-6b4a22018c0e.png)
 
 ## Note  
