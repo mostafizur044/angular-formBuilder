@@ -16,8 +16,5 @@ Run `ng serve / npm start`
 ![angularformlist](https://user-images.githubusercontent.com/29102674/34361625-f31fd756-ea95-11e7-9d55-822484a70fe0.png)
 ![angularformpre](https://user-images.githubusercontent.com/29102674/34361626-f36476ea-ea95-11e7-98f7-6b4a22018c0e.png)
 
-
-## Please check `package.json` and `angular-cli.json` files for DI. To change style please modify the provided scss files.
-## Thanks
-
-
+## Note  
+Please check `package.json` and `angular-cli.json` files for DI. To change style please modify the provided scss files.
