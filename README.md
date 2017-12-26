@@ -1,4 +1,4 @@
-# AngularFormBuilder(ng4FormBuilder) with formRender
+# AngularFormBuilder or ng4FormBuilder
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.  
 This has done based on jQuery [Form Builder](https://github.com/kevinchappell/formBuilder).  
